@@ -1,0 +1,7 @@
+google-cloud-aiplatform
+google-genai
+livekit-agents
+livekit-plugins-google
+pandas
+openpyxl
+python-dotenv
