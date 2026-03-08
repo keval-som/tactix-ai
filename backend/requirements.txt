@@ -5,3 +5,6 @@ livekit-plugins-google
 pandas
 openpyxl
 python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart

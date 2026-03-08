@@ -1,4 +1,6 @@
 import { create } from 'zustand';
+import { startSession as apiStartSession } from '@/services/api';
+import type { PostCallReport } from '@/services/api';
 
 export type CardType = 'LEGAL_SHIELD' | 'MATH_CHECK' | 'PSYCH_CUE' | 'VISION_GOTCHA';
 
@@ -8,7 +10,7 @@ export interface ActionCard {
   title: string;
   description: string;
   timestamp: number;
-  savings?: number;
+  savings?: number | null;
 }
 
 export interface TranscriptEntry {
@@ -38,6 +40,10 @@ interface NegotiationState {
   transcript: TranscriptEntry[];
   actionCards: ActionCard[];
   theme: 'light' | 'dark';
+  sessionId: string | null;
+  postCallReport: PostCallReport | null;
+  activeSpeaker: 'you' | 'adversary';
+  isLaunching: boolean;
 
   setStage: (stage: Stage) => void;
   setScenario: (scenario: Scenario) => void;
@@ -49,9 +55,14 @@ interface NegotiationState {
   addActionCard: (card: ActionCard) => void;
   toggleTheme: () => void;
   reset: () => void;
-  launchSession: () => void;
+  launchSession: () => Promise<void>;
+  setSessionId: (id: string | null) => void;
+  setPostCallReport: (report: PostCallReport | null) => void;
+  setActiveSpeaker: (speaker: 'you' | 'adversary') => void;
+  loadMockData: () => void;   // dev shortcut
 }
 
+// ── Mock data kept for dev/testing ───────────────────────────────────────────
 const MOCK_TRANSCRIPT: TranscriptEntry[] = [
   { id: '1', speaker: 'adversary', text: "So this vehicle is priced at $34,500 and that's actually below market value. We can't go any lower.", timestamp: Date.now() - 120000, highlights: ['$34,500', 'below market value'] },
   { id: '2', speaker: 'you', text: "I've done some research. KBB shows this model at about $31,000 for this mileage.", timestamp: Date.now() - 100000, highlights: ['$31,000'] },
@@ -71,7 +82,7 @@ const MOCK_CARDS: ActionCard[] = [
   { id: 'c6', type: 'LEGAL_SHIELD', title: 'Doc Fee Exceeds State Cap', description: 'Documentation fee of $499 exceeds your state\'s legal maximum of $200. Cite state statute to negotiate down.', timestamp: Date.now() - 70000, savings: 299 },
 ];
 
-export const useNegotiationStore = create<NegotiationState>((set) => ({
+export const useNegotiationStore = create<NegotiationState>((set, get) => ({
   stage: 'briefing',
   scenario: null,
   context: '',
@@ -81,6 +92,10 @@ export const useNegotiationStore = create<NegotiationState>((set) => ({
   transcript: [],
   actionCards: [],
   theme: 'dark',
+  sessionId: null,
+  postCallReport: null,
+  activeSpeaker: 'adversary',
+  isLaunching: false,
 
   setStage: (stage) => set({ stage }),
   setScenario: (scenario) => set({ scenario }),
@@ -90,11 +105,16 @@ export const useNegotiationStore = create<NegotiationState>((set) => ({
   setReadiness: (partial) => set((s) => ({ readiness: { ...s.readiness, ...partial } })),
   addTranscript: (entry) => set((s) => ({ transcript: [...s.transcript, entry] })),
   addActionCard: (card) => set((s) => ({ actionCards: [...s.actionCards, card] })),
+  setSessionId: (id) => set({ sessionId: id }),
+  setPostCallReport: (report) => set({ postCallReport: report }),
+  setActiveSpeaker: (speaker) => set({ activeSpeaker: speaker }),
+
   toggleTheme: () => set((s) => {
     const next = s.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.classList.toggle('dark', next === 'dark');
     return { theme: next };
   }),
+
   reset: () => set({
     stage: 'briefing',
     scenario: null,
@@ -102,11 +122,41 @@ export const useNegotiationStore = create<NegotiationState>((set) => ({
     readiness: { vision: 'idle', audio: 'idle', logic: 'idle' },
     transcript: [],
     actionCards: [],
+    sessionId: null,
+    postCallReport: null,
+    activeSpeaker: 'adversary',
+    isLaunching: false,
   }),
-  launchSession: () => set({
+
+  launchSession: async () => {
+    const { scenario, context, userName } = get();
+    set({ isLaunching: true });
+    try {
+      const { session_id } = await apiStartSession(
+        scenario ?? 'general',
+        context,
+        userName
+      );
+      set({
+        sessionId: session_id,
+        stage: 'battle',
+        readiness: { vision: 'ready', audio: 'listening', logic: 'active' },
+        transcript: [],
+        actionCards: [],
+        isLaunching: false,
+      });
+    } catch (e) {
+      console.error('[launchSession] failed to start session:', e);
+      set({ isLaunching: false });
+    }
+  },
+
+  // Keep mock data for development testing
+  loadMockData: () => set({
     stage: 'battle',
     readiness: { vision: 'ready', audio: 'listening', logic: 'active' },
     transcript: MOCK_TRANSCRIPT,
     actionCards: MOCK_CARDS,
+    sessionId: 'mock-session',
   }),
 }));

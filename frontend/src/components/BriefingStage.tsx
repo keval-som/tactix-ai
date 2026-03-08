@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Sparkles, Camera, Mic, Monitor, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Camera, Mic, Monitor, CheckCircle2, Loader2 } from 'lucide-react';
 import { useNegotiationStore } from '@/store/useNegotiationStore';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { ScenarioMatrix } from './ScenarioCard';
+import { setTabStream } from '@/services/capturedStream';
 
 const SUGGESTIONS = [
   'Big Purchase (Car/Home)',
@@ -28,22 +29,27 @@ const PermissionItem = ({ icon: Icon, label, description, granted, onRequest }: 
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
     onClick={onRequest}
-    className={`flex flex-col items-center justify-center p-3 rounded-lg border text-center transition-all flex-1 cursor-pointer ${
-      granted ? 'border-check/40 bg-check/10' : 'border-border bg-card hover:border-muted-foreground/40'
-    }`}
+    className={`flex flex-col items-center justify-center p-3 rounded-lg border text-center transition-all flex-1 cursor-pointer ${granted ? 'border-check/40 bg-check/10' : 'border-border bg-card hover:border-muted-foreground/40'
+      }`}
   >
     <div className={`p-1.5 rounded-lg mb-2 transition-colors ${granted ? 'bg-check/20 text-check' : 'bg-secondary text-muted-foreground'}`}>
       <Icon size={16} />
     </div>
     <p className={`text-xs font-semibold transition-colors ${granted ? 'text-check' : 'text-foreground'}`}>{label}</p>
     <p className="text-[10px] text-muted-foreground line-clamp-1">{description}</p>
+    {granted && <CheckCircle2 size={12} className="text-check mt-1" />}
   </motion.div>
 );
 
 export const BriefingStage = () => {
-  const { userName, setUserName, purpose, setPurpose, scenario, setScenario, setContext, launchSession } = useNegotiationStore();
+  const { userName, setUserName, purpose, setPurpose, scenario, setScenario, setContext, launchSession, isLaunching } = useNegotiationStore();
   const [nameSubmitted, setNameSubmitted] = useState(false);
   const [permissions, setPermissions] = useState({ camera: false, audio: false, screen: false });
+
+  // Hold real browser streams so they remain open when Battle stage mounts
+  const micStreamRef = useRef<MediaStream | null>(null);
+  const screenStreamRef = useRef<MediaStream | null>(null);
+  const cameraStreamRef = useRef<MediaStream | null>(null);
 
   const handleNameSubmit = () => {
     if (!userName.trim()) return;
@@ -58,11 +64,61 @@ export const BriefingStage = () => {
     else if (suggestion.includes('Lease') || suggestion.includes('Rent')) setScenario('rental');
   };
 
-  const grantPermission = (key: keyof typeof permissions) => {
-    setPermissions((p) => ({ ...p, [key]: true }));
-  };
+  const requestCamera = useCallback(async () => {
+    if (permissions.camera) return;
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+      cameraStreamRef.current = stream;
+      setPermissions((p) => ({ ...p, camera: true }));
+    } catch (e) {
+      console.error('[BriefingStage] camera permission denied', e);
+      alert('Camera permission denied. Please allow camera access and try again.');
+    }
+  }, [permissions.camera]);
+
+  const requestAudio = useCallback(async () => {
+    if (permissions.audio) return;
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      micStreamRef.current = stream;
+      setPermissions((p) => ({ ...p, audio: true }));
+    } catch (e) {
+      console.error('[BriefingStage] mic permission denied', e);
+      alert('Microphone permission denied. Please allow microphone access and try again.');
+    }
+  }, [permissions.audio]);
+
+  const requestScreen = useCallback(async () => {
+    if (permissions.screen) return;
+    try {
+      const stream = await navigator.mediaDevices.getDisplayMedia({
+        video: { frameRate: 5 },
+        audio: true,
+      });
+      screenStreamRef.current = stream;
+      // Save to singleton — BattleStage reuses this, no second prompt
+      setTabStream(stream);
+      setPermissions((p) => ({ ...p, screen: true }));
+      // If user stops sharing from the browser bar, reset permission
+      stream.getVideoTracks()[0]?.addEventListener('ended', () => {
+        setTabStream(null);
+        setPermissions((p) => ({ ...p, screen: false }));
+        screenStreamRef.current = null;
+      });
+    } catch (e) {
+      console.error('[BriefingStage] screen share denied', e);
+      alert('Screen share permission denied or cancelled. Please try again.');
+    }
+  }, [permissions.screen]);
 
   const allGranted = permissions.camera && permissions.audio && permissions.screen;
+
+  const handleLaunch = useCallback(async () => {
+    if (!allGranted || isLaunching) return;
+    // Set the context from purpose field before launching
+    setContext(purpose);
+    await launchSession();
+  }, [allGranted, isLaunching, purpose, setContext, launchSession]);
 
   return (
     <div className="flex-1 flex items-center justify-center p-6">
@@ -147,11 +203,10 @@ export const BriefingStage = () => {
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleSuggestionClick(s)}
-                    className={`px-4 py-2 rounded-full text-xs font-medium transition-all ${
-                      purpose === s
-                        ? 'bg-primary text-primary-foreground'
-                        : 'bg-secondary text-muted-foreground hover:text-foreground hover:bg-secondary/80'
-                    }`}
+                    className={`px-4 py-2 rounded-full text-xs font-medium transition-all ${purpose === s
+                      ? 'bg-primary text-primary-foreground'
+                      : 'bg-secondary text-muted-foreground hover:text-foreground hover:bg-secondary/80'
+                      }`}
                   >
                     {s}
                   </motion.button>
@@ -170,39 +225,53 @@ export const BriefingStage = () => {
                   label="Camera"
                   description="Used to scan documents & contracts"
                   granted={permissions.camera}
-                  onRequest={() => grantPermission('camera')}
+                  onRequest={requestCamera}
                 />
                 <PermissionItem
                   icon={Mic}
                   label="Microphone"
                   description="Captures live conversation for analysis"
                   granted={permissions.audio}
-                  onRequest={() => grantPermission('audio')}
+                  onRequest={requestAudio}
                 />
                 <PermissionItem
                   icon={Monitor}
                   label="Screen Share"
-                  description="Enables the floating HUD overlay"
+                  description="Captures Meet tab audio + video"
                   granted={permissions.screen}
-                  onRequest={() => grantPermission('screen')}
+                  onRequest={requestScreen}
                 />
               </div>
+              {!permissions.screen && (
+                <p className="text-[10px] text-muted-foreground text-center mt-1">
+                  💡 For Screen Share: select your Google Meet tab and enable "Share tab audio"
+                </p>
+              )}
             </div>
 
             {/* Launch */}
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              onClick={launchSession}
-              disabled={!allGranted}
+              onClick={handleLaunch}
+              disabled={!allGranted || isLaunching}
               className={`w-full py-4 rounded-xl font-bold text-sm tracking-wider flex items-center justify-center gap-2 transition-all duration-300
-                ${allGranted
+                ${allGranted && !isLaunching
                   ? 'bg-primary text-primary-foreground glow-green cursor-pointer'
                   : 'bg-muted text-muted-foreground cursor-not-allowed'
                 }`}
             >
-              <Sparkles size={18} />
-              {allGranted ? 'LAUNCH TACTIX' : 'GRANT ALL PERMISSIONS TO CONTINUE'}
+              {isLaunching ? (
+                <>
+                  <Loader2 size={18} className="animate-spin" />
+                  BRIEFING AI...
+                </>
+              ) : (
+                <>
+                  <Sparkles size={18} />
+                  {allGranted ? 'LAUNCH TACTIX' : 'GRANT ALL PERMISSIONS TO CONTINUE'}
+                </>
+              )}
             </motion.button>
           </motion.div>
         )}
