@@ -1,14 +1,37 @@
-from livekit.agents import Agent, JobContext
+from livekit.agents import Agent, JobContext, function_tool, RunContext
 from .services.sentiment import analyze_sentiment
 from .services.retrieval import retrieve_from_dataset
 from .services.orchestrator import analyze_multimodal
+from .services import vision
+from .services.postcall import generate_post_call_report
+
+
+@function_tool
+def get_sentiment(context: RunContext, text: str):
+    """Tool allowing the LLM to request sentiment analysis on arbitrary text."""
+    return analyze_sentiment(text)
+
+@function_tool
+def summarize_text(context: RunContext, text: str):
+    """A simple summarization tool.
+
+    This is a placeholder; swap in a call to a proper summarization model or
+    service if you need higher quality.
+    """
+    # very crude summary
+    return {"summary": text[:200] + ("..." if len(text) > 200 else "")}
 
 class DealSightAgent(Agent):
 
     def __init__(self):
-        super().__init__(instructions="You are a DealSight agent that analyzes conversations for sentiment, retrieves relevant data from a dataset, and orchestrates multimodal reasoning to provide insights.")
+        # register any tools we want the LLM to be able to call explicitly
+        super().__init__(
+            instructions="You are a DealSight agent that analyzes conversations for sentiment, retrieves relevant data from a dataset, and orchestrates multimodal reasoning to provide insights.",
+            tools=[get_sentiment, summarize_text],
+        )
         self.full_transcript = []
         self.user_context = ""
+
 
     async def on_start(self, ctx: JobContext):
         self.user_context = ctx.metadata.get("context", "")
@@ -39,6 +62,21 @@ class DealSightAgent(Agent):
 
         # Whisper back
         await ctx.say(whisper)
+
+    async def on_image(self, image_data: bytes, ctx: JobContext):
+        """Handle an incoming image frame or screenshot.
+
+        The `image_data` parameter depends on how the client sends vision data.
+        For example, it might be a base64-encoded JPEG string or raw bytes.
+        """
+        # store or log the image if needed
+        analysis = vision.analyze_image(image_data)
+
+        # optionally update user context with vision info
+        self.user_context += " \nIMAGE_INFO: " + str(analysis)
+
+        # let the agent respond to the vision data
+        await ctx.say("I saw the image and noted: {}".format(analysis.get("description", "")))
 
     async def on_shutdown(self, ctx: JobContext):
 

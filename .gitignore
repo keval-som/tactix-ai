@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+backend/venv/
+
+# Environment variables (local only)
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.sublime-workspace
+.sublime-project
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node (if you add a frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+dist/
+
+# LiveKit & API credentials (keep sensitive data out!)
+# Uncomment if storing credentials locally:
+# *.json (service account keys)
+# config.local.py
+
+# Data/output files (optional - uncomment to ignore)
+# *.csv (data files)
+# *.xlsx
+# *.xls
+
+# IDE generated files
+.vscode/launch.json
+.vscode/tasks.json
+
+# Misc
+.cache/
+*.bak
+*.swp
+*~
+.#*
