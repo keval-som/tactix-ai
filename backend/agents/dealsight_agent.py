@@ -24,44 +24,74 @@ def summarize_text(context: RunContext, text: str):
 class DealSightAgent(Agent):
 
     def __init__(self):
-        # register any tools we want the LLM to be able to call explicitly
+        # Enhanced system instructions for better semantic understanding
+        system_instructions = """You are DealSight, an intelligent conversational AI assistant specializing in deal analysis and business intelligence. Your role is to:
+
+1. UNDERSTAND THE USER'S INTENT: Carefully analyze what the user is actually asking for, not just the literal words.
+2. PROVIDE CONTEXT-AWARE RESPONSES: Remember the conversation history and maintain coherence.
+3. ANALYZE SENTIMENT & TONE: Detect emotional nuances, urgency, and underlying concerns in the user's speech.
+4. USE AVAILABLE TOOLS: Leverage sentiment analysis and data retrieval to enrich your responses.
+5. ASK CLARIFYING QUESTIONS: If the user's intent is ambiguous, ask for clarification rather than guessing.
+6. EXPLAIN YOUR REASONING: Give clear, logical explanations for your suggestions and insights.
+
+You have access to:
+- Sentiment analysis for detecting emotional tone and pressure levels
+- Data retrieval from a comprehensive dataset
+- Multimodal reasoning for integrating multiple information sources
+- Text summarization for condensing complex information
+
+Always be conversational, empathetic, and helpful."""
+
         super().__init__(
-            instructions="You are a DealSight agent that analyzes conversations for sentiment, retrieves relevant data from a dataset, and orchestrates multimodal reasoning to provide insights.",
+            instructions=system_instructions,
             tools=[get_sentiment, summarize_text],
         )
         self.full_transcript = []
         self.user_context = ""
+        self.conversation_history = []  # Track conversation for better context
 
 
     async def on_start(self, ctx: JobContext):
         self.user_context = ctx.metadata.get("context", "")
 
     async def on_text(self, text: str, ctx: JobContext):
-
+        """Process user input with enhanced NLP understanding."""
+        
         # Live transcript buffer
         self.full_transcript.append(text)
+        self.conversation_history.append({"role": "user", "content": text})
 
-        # Real-time sentiment
+        # Real-time sentiment analysis
         sentiment = analyze_sentiment(text)
 
-        # Dataset retrieval
+        # Dataset retrieval with better semantic understanding
+        # Combine user input with recent conversation context
+        recent_context = " ".join([
+            msg.get("content", "") 
+            for msg in self.conversation_history[-3:]  # last 3 messages for context
+        ])
+        
         dataset_info = retrieve_from_dataset(
-            text + " " + self.user_context
+            text + " " + recent_context + " " + self.user_context
         )
 
-        # Multimodal reasoning
+        # Multimodal reasoning with enriched context
         result = analyze_multimodal({
             "transcript": text,
             "sentiment": sentiment,
             "dataset_info": dataset_info,
-            "user_context": self.user_context
+            "user_context": self.user_context,
+            "conversation_history": self.conversation_history[-5:],  # last 5 turns
         })
 
-        whisper = result.get("recommended_response", 
-                             "Pause before responding.")
-
-        # Whisper back
-        await ctx.say(whisper)
+        response = result.get("recommended_response", 
+                             "I understand. Could you tell me more?")
+        
+        # Track agent response in conversation history
+        self.conversation_history.append({"role": "assistant", "content": response})
+        
+        # Respond to user
+        await ctx.say(response)
 
     async def on_image(self, image_data: bytes, ctx: JobContext):
         """Handle an incoming image frame or screenshot.
