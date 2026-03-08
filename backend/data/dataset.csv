@@ -1,0 +1,1441 @@
+Conversation_ID,Domain,Turn,Speaker,Sentence,Sentiment,Intent,Rule_Category,Specific_Rule,Violation,Risk_Level
+C1,Debt Collection,1,Agent,"For your information, Third-party disclosure of debt.",Neutral,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C1,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C2,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Helpful,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C2,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C3,Debt Collection,1,Agent,I need to inform you that Providing debt validation notice.,Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C3,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C4,Debt Collection,1,Agent,"For your information, Refusing debt validation request.",Threatening,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C4,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C5,Debt Collection,1,Agent,Please note that Harassment through repeated calls.,Neutral,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C5,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C6,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C6,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C7,Debt Collection,1,Agent,Our records indicate that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C7,Debt Collection,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C8,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C8,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C9,Debt Collection,1,Agent,I need to inform you that Harassment through repeated calls.,Serious,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C9,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C10,Debt Collection,1,Agent,Our records indicate that Refusing debt validation request.,Threatening,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C10,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C11,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Serious,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C11,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C12,Debt Collection,1,Agent,I need to inform you that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C12,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C13,Debt Collection,1,Agent,I need to inform you that Third-party disclosure of debt.,Serious,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C13,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C14,Debt Collection,1,Agent,Please note that Calling before 8 AM or after 9 PM.,Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C14,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C15,Debt Collection,1,Agent,I want to explain that Harassment through repeated calls.,Helpful,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C15,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C16,Debt Collection,1,Agent,I want to explain that Calling before 8 AM or after 9 PM.,Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C16,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C17,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C17,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C18,Debt Collection,1,Agent,I need to inform you that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C18,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C19,Debt Collection,1,Agent,"For your information, Harassment through repeated calls.",Helpful,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C19,Debt Collection,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C20,Debt Collection,1,Agent,I want to explain that Providing debt validation notice.,Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C20,Debt Collection,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C21,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Helpful,Statement,FDCPA,Providing debt validation notice,No,Low
+C21,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C22,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Neutral,Statement,FDCPA,Providing debt validation notice,No,Low
+C22,Debt Collection,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C23,Debt Collection,1,Agent,Please note that Harassment through repeated calls.,Serious,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C23,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C24,Debt Collection,1,Agent,Our records indicate that Calling before 8 AM or after 9 PM.,Threatening,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C24,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C25,Debt Collection,1,Agent,"For your information, Refusing debt validation request.",Neutral,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C25,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C26,Debt Collection,1,Agent,I need to inform you that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C26,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C27,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C27,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C28,Debt Collection,1,Agent,I want to explain that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C28,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C29,Debt Collection,1,Agent,Please note that Third-party disclosure of debt.,Helpful,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C29,Debt Collection,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C30,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C30,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C31,Debt Collection,1,Agent,I want to explain that Calling before 8 AM or after 9 PM.,Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C31,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C32,Debt Collection,1,Agent,"For your information, Providing debt validation notice.",Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C32,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C33,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Threatening,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C33,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C34,Debt Collection,1,Agent,I need to inform you that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C34,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C35,Debt Collection,1,Agent,I want to explain that Refusing debt validation request.,Threatening,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C35,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C36,Debt Collection,1,Agent,I need to inform you that Third-party disclosure of debt.,Helpful,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C36,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C37,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Serious,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C37,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C38,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Helpful,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C38,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C39,Debt Collection,1,Agent,I want to explain that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C39,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C40,Debt Collection,1,Agent,"For your information, Providing debt validation notice.",Neutral,Statement,FDCPA,Providing debt validation notice,No,Low
+C40,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C41,Debt Collection,1,Agent,I want to explain that Providing mini-miranda disclosure.,Helpful,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C41,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C42,Debt Collection,1,Agent,I need to inform you that Calling before 8 AM or after 9 PM.,Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C42,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C43,Debt Collection,1,Agent,Our records indicate that Threat of arrest for unpaid civil debt.,Serious,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C43,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C44,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C44,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C45,Debt Collection,1,Agent,Our records indicate that Harassment through repeated calls.,Neutral,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C45,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C46,Debt Collection,1,Agent,Our records indicate that Refusing debt validation request.,Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C46,Debt Collection,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C47,Debt Collection,1,Agent,I need to inform you that Calling before 8 AM or after 9 PM.,Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C47,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C48,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Serious,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C48,Debt Collection,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C49,Debt Collection,1,Agent,Please note that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C49,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C50,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Helpful,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C50,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C51,Debt Collection,1,Agent,Our records indicate that Calling before 8 AM or after 9 PM.,Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C51,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C52,Debt Collection,1,Agent,I need to inform you that Threat of arrest for unpaid civil debt.,Serious,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C52,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C53,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Helpful,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C53,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C54,Debt Collection,1,Agent,I need to inform you that Refusing debt validation request.,Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C54,Debt Collection,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C55,Debt Collection,1,Agent,"For your information, Third-party disclosure of debt.",Helpful,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C55,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C56,Debt Collection,1,Agent,Please note that Harassment through repeated calls.,Neutral,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C56,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C57,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C57,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C58,Debt Collection,1,Agent,Our records indicate that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C58,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C59,Debt Collection,1,Agent,Our records indicate that Harassment through repeated calls.,Helpful,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C59,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C60,Debt Collection,1,Agent,I want to explain that Refusing debt validation request.,Threatening,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C60,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C61,Debt Collection,1,Agent,"For your information, Providing debt validation notice.",Serious,Statement,FDCPA,Providing debt validation notice,No,Low
+C61,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C62,Debt Collection,1,Agent,Our records indicate that Providing debt validation notice.,Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C62,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C63,Debt Collection,1,Agent,"For your information, Threat of arrest for unpaid civil debt.",Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C63,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C64,Debt Collection,1,Agent,"For your information, Providing mini-miranda disclosure.",Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C64,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C65,Debt Collection,1,Agent,I want to explain that Threat of arrest for unpaid civil debt.,Serious,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C65,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C66,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Neutral,Statement,FDCPA,Providing debt validation notice,No,Low
+C66,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C67,Debt Collection,1,Agent,I want to explain that Calling before 8 AM or after 9 PM.,Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C67,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C68,Debt Collection,1,Agent,Our records indicate that Providing debt validation notice.,Helpful,Statement,FDCPA,Providing debt validation notice,No,Low
+C68,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C69,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C69,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C70,Debt Collection,1,Agent,I want to explain that Refusing debt validation request.,Neutral,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C70,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C71,Debt Collection,1,Agent,"For your information, Refusing debt validation request.",Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C71,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C72,Debt Collection,1,Agent,I want to explain that Calling before 8 AM or after 9 PM.,Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C72,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C73,Debt Collection,1,Agent,"For your information, Threat of arrest for unpaid civil debt.",Neutral,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C73,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C74,Debt Collection,1,Agent,I want to explain that Providing mini-miranda disclosure.,Serious,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C74,Debt Collection,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C75,Debt Collection,1,Agent,"For your information, Providing debt validation notice.",Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C75,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C76,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Neutral,Statement,FDCPA,Providing debt validation notice,No,Low
+C76,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C77,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C77,Debt Collection,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C78,Debt Collection,1,Agent,I need to inform you that Calling before 8 AM or after 9 PM.,Helpful,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C78,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C79,Debt Collection,1,Agent,Please note that Providing debt validation notice.,Serious,Statement,FDCPA,Providing debt validation notice,No,Low
+C79,Debt Collection,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C80,Debt Collection,1,Agent,I want to explain that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C80,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C81,Debt Collection,1,Agent,Our records indicate that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C81,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C82,Debt Collection,1,Agent,I want to explain that Harassment through repeated calls.,Threatening,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C82,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C83,Debt Collection,1,Agent,I need to inform you that Refusing debt validation request.,Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C83,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C84,Debt Collection,1,Agent,"For your information, Refusing debt validation request.",Threatening,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C84,Debt Collection,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C85,Debt Collection,1,Agent,"For your information, Providing mini-miranda disclosure.",Helpful,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C85,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C86,Debt Collection,1,Agent,Please note that Calling before 8 AM or after 9 PM.,Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C86,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C87,Debt Collection,1,Agent,I want to explain that Providing mini-miranda disclosure.,Helpful,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C87,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C88,Debt Collection,1,Agent,I want to explain that Threat of arrest for unpaid civil debt.,Helpful,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C88,Debt Collection,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C89,Debt Collection,1,Agent,I need to inform you that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C89,Debt Collection,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C90,Debt Collection,1,Agent,I need to inform you that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C90,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C91,Debt Collection,1,Agent,Our records indicate that Calling before 8 AM or after 9 PM.,Helpful,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C91,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C92,Debt Collection,1,Agent,I need to inform you that Harassment through repeated calls.,Helpful,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C92,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C93,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Neutral,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C93,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C94,Debt Collection,1,Agent,I want to explain that Threat of arrest for unpaid civil debt.,Neutral,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C94,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C95,Debt Collection,1,Agent,I want to explain that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C95,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C96,Debt Collection,1,Agent,Our records indicate that Harassment through repeated calls.,Threatening,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C96,Debt Collection,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C97,Debt Collection,1,Agent,Our records indicate that Refusing debt validation request.,Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C97,Debt Collection,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C98,Debt Collection,1,Agent,"For your information, Providing debt validation notice.",Helpful,Statement,FDCPA,Providing debt validation notice,No,Low
+C98,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C99,Debt Collection,1,Agent,I need to inform you that Providing debt validation notice.,Neutral,Statement,FDCPA,Providing debt validation notice,No,Low
+C99,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C100,Debt Collection,1,Agent,I need to inform you that Calling before 8 AM or after 9 PM.,Threatening,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C100,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C101,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Neutral,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C101,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C102,Debt Collection,1,Agent,Our records indicate that Refusing debt validation request.,Serious,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C102,Debt Collection,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C103,Debt Collection,1,Agent,I need to inform you that Calling before 8 AM or after 9 PM.,Threatening,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C103,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C104,Debt Collection,1,Agent,"For your information, Third-party disclosure of debt.",Threatening,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C104,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C105,Debt Collection,1,Agent,Please note that Providing mini-miranda disclosure.,Helpful,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C105,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C106,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C106,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C107,Debt Collection,1,Agent,"For your information, Calling before 8 AM or after 9 PM.",Serious,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C107,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C108,Debt Collection,1,Agent,I need to inform you that Harassment through repeated calls.,Neutral,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C108,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C109,Debt Collection,1,Agent,Our records indicate that Threat of arrest for unpaid civil debt.,Neutral,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C109,Debt Collection,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C110,Debt Collection,1,Agent,Our records indicate that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C110,Debt Collection,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C111,Debt Collection,1,Agent,I want to explain that Third-party disclosure of debt.,Neutral,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C111,Debt Collection,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C112,Debt Collection,1,Agent,"For your information, Threat of arrest for unpaid civil debt.",Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C112,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C113,Debt Collection,1,Agent,Our records indicate that Providing debt validation notice.,Threatening,Statement,FDCPA,Providing debt validation notice,No,Low
+C113,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C114,Debt Collection,1,Agent,"For your information, Harassment through repeated calls.",Neutral,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C114,Debt Collection,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C115,Debt Collection,1,Agent,I need to inform you that Providing mini-miranda disclosure.,Threatening,Statement,FDCPA,Providing mini-miranda disclosure,No,Low
+C115,Debt Collection,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C116,Debt Collection,1,Agent,I need to inform you that Refusing debt validation request.,Helpful,Statement,FDCPA,Refusing debt validation request,Yes,Medium
+C116,Debt Collection,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C117,Debt Collection,1,Agent,I need to inform you that Third-party disclosure of debt.,Helpful,Statement,FDCPA,Third-party disclosure of debt,Yes,High
+C117,Debt Collection,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C118,Debt Collection,1,Agent,"For your information, Harassment through repeated calls.",Serious,Statement,FDCPA,Harassment through repeated calls,Yes,High
+C118,Debt Collection,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C119,Debt Collection,1,Agent,I want to explain that Calling before 8 AM or after 9 PM.,Threatening,Statement,FDCPA,Calling before 8 AM or after 9 PM,Yes,High
+C119,Debt Collection,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C120,Debt Collection,1,Agent,Our records indicate that Threat of arrest for unpaid civil debt.,Threatening,Statement,FDCPA,Threat of arrest for unpaid civil debt,Yes,High
+C120,Debt Collection,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C121,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C121,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C122,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C122,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C123,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C123,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C124,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C124,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C125,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C125,Credit Reporting,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C126,Credit Reporting,1,Agent,I want to explain that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C126,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C127,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Helpful,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C127,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C128,Credit Reporting,1,Agent,I want to explain that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C128,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C129,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C129,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C130,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C130,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C131,Credit Reporting,1,Agent,Please note that Correcting inaccurate credit report.,Threatening,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C131,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C132,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C132,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C133,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C133,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C134,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C134,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C135,Credit Reporting,1,Agent,Please note that Reporting incorrect credit information.,Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C135,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C136,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C136,Credit Reporting,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C137,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C137,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C138,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Serious,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C138,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C139,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C139,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C140,Credit Reporting,1,Agent,"For your information, Failure to investigate credit dispute.",Serious,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C140,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C141,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C141,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C142,Credit Reporting,1,Agent,Please note that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C142,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C143,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C143,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C144,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C144,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C145,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C145,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C146,Credit Reporting,1,Agent,"For your information, Failure to investigate credit dispute.",Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C146,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C147,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C147,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C148,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C148,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C149,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C149,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C150,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C150,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C151,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Helpful,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C151,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C152,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C152,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C153,Credit Reporting,1,Agent,Please note that Reporting incorrect credit information.,Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C153,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C154,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C154,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C155,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C155,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C156,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Serious,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C156,Credit Reporting,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C157,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C157,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C158,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C158,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C159,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Serious,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C159,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C160,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C160,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C161,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C161,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C162,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C162,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C163,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C163,Credit Reporting,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C164,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C164,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C165,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C165,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C166,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C166,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C167,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C167,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C168,Credit Reporting,1,Agent,I want to explain that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C168,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C169,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C169,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C170,Credit Reporting,1,Agent,Our records indicate that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C170,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C171,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C171,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C172,Credit Reporting,1,Agent,Please note that Correcting inaccurate credit report.,Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C172,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C173,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C173,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C174,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C174,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C175,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C175,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C176,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C176,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C177,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C177,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C178,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Helpful,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C178,Credit Reporting,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C179,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Helpful,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C179,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C180,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C180,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C181,Credit Reporting,1,Agent,Our records indicate that Reporting incorrect credit information.,Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C181,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C182,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Serious,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C182,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C183,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C183,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C184,Credit Reporting,1,Agent,I need to inform you that Reporting incorrect credit information.,Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C184,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C185,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C185,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C186,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C186,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C187,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Threatening,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C187,Credit Reporting,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C188,Credit Reporting,1,Agent,Our records indicate that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C188,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C189,Credit Reporting,1,Agent,Please note that Correcting inaccurate credit report.,Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C189,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C190,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C190,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C191,Credit Reporting,1,Agent,Our records indicate that Reporting incorrect credit information.,Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C191,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C192,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C192,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C193,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C193,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C194,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C194,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C195,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C195,Credit Reporting,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C196,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C196,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C197,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C197,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C198,Credit Reporting,1,Agent,Please note that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C198,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C199,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C199,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C200,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C200,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C201,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Helpful,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C201,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C202,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C202,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C203,Credit Reporting,1,Agent,Please note that Correcting inaccurate credit report.,Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C203,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C204,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C204,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C205,Credit Reporting,1,Agent,Please note that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C205,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C206,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C206,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C207,Credit Reporting,1,Agent,"For your information, Correcting inaccurate credit report.",Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C207,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C208,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C208,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C209,Credit Reporting,1,Agent,I need to inform you that Reporting incorrect credit information.,Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C209,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C210,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C210,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C211,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C211,Credit Reporting,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C212,Credit Reporting,1,Agent,"For your information, Reporting incorrect credit information.",Threatening,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C212,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C213,Credit Reporting,1,Agent,I need to inform you that Reporting incorrect credit information.,Serious,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C213,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C214,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C214,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C215,Credit Reporting,1,Agent,I want to explain that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C215,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C216,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C216,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C217,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C217,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C218,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C218,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C219,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Threatening,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C219,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C220,Credit Reporting,1,Agent,Our records indicate that Correcting inaccurate credit report.,Helpful,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C220,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C221,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C221,Credit Reporting,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C222,Credit Reporting,1,Agent,Our records indicate that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C222,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C223,Credit Reporting,1,Agent,Please note that Reporting incorrect credit information.,Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C223,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C224,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Threatening,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C224,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C225,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C225,Credit Reporting,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C226,Credit Reporting,1,Agent,Please note that Failure to investigate credit dispute.,Serious,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C226,Credit Reporting,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C227,Credit Reporting,1,Agent,I want to explain that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C227,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C228,Credit Reporting,1,Agent,I want to explain that Reporting incorrect credit information.,Serious,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C228,Credit Reporting,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C229,Credit Reporting,1,Agent,Our records indicate that Investigating dispute within 30 days.,Neutral,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C229,Credit Reporting,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C230,Credit Reporting,1,Agent,Our records indicate that Reporting incorrect credit information.,Neutral,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C230,Credit Reporting,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C231,Credit Reporting,1,Agent,I need to inform you that Failure to investigate credit dispute.,Threatening,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C231,Credit Reporting,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C232,Credit Reporting,1,Agent,I need to inform you that Reporting incorrect credit information.,Helpful,Statement,FCRA,Reporting incorrect credit information,Yes,High
+C232,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C233,Credit Reporting,1,Agent,Please note that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C233,Credit Reporting,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C234,Credit Reporting,1,Agent,I want to explain that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C234,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C235,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Helpful,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C235,Credit Reporting,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C236,Credit Reporting,1,Agent,I need to inform you that Investigating dispute within 30 days.,Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C236,Credit Reporting,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C237,Credit Reporting,1,Agent,I need to inform you that Correcting inaccurate credit report.,Neutral,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C237,Credit Reporting,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C238,Credit Reporting,1,Agent,Our records indicate that Failure to investigate credit dispute.,Neutral,Statement,FCRA,Failure to investigate credit dispute,Yes,High
+C238,Credit Reporting,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C239,Credit Reporting,1,Agent,I want to explain that Correcting inaccurate credit report.,Serious,Statement,FCRA,Correcting inaccurate credit report,No,Low
+C239,Credit Reporting,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C240,Credit Reporting,1,Agent,"For your information, Investigating dispute within 30 days.",Serious,Statement,FCRA,Investigating dispute within 30 days,No,Low
+C240,Credit Reporting,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C241,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C241,Landlord Tenant,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C242,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C242,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C243,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C243,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C244,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C244,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C245,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C245,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C246,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C246,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C247,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C247,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C248,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C248,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C249,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C249,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C250,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C250,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C251,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C251,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C252,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C252,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C253,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Threatening,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C253,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C254,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Serious,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C254,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C255,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C255,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C256,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C256,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C257,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C257,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C258,Landlord Tenant,1,Agent,Please note that Failure to maintain habitable conditions.,Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C258,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C259,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C259,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C260,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C260,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C261,Landlord Tenant,1,Agent,I need to inform you that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C261,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C262,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C262,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C263,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C263,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C264,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C264,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C265,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C265,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C266,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C266,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C267,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C267,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C268,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C268,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C269,Landlord Tenant,1,Agent,Our records indicate that Retaliatory eviction threat.,Threatening,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C269,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C270,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C270,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C271,Landlord Tenant,1,Agent,Our records indicate that Retaliatory eviction threat.,Threatening,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C271,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C272,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C272,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C273,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C273,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C274,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C274,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C275,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C275,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C276,Landlord Tenant,1,Agent,I need to inform you that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C276,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C277,Landlord Tenant,1,Agent,Our records indicate that Retaliatory eviction threat.,Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C277,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C278,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C278,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C279,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Serious,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C279,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C280,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C280,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C281,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C281,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C282,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C282,Landlord Tenant,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C283,Landlord Tenant,1,Agent,I need to inform you that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C283,Landlord Tenant,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C284,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C284,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C285,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Threatening,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C285,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C286,Landlord Tenant,1,Agent,I want to explain that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C286,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C287,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C287,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C288,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C288,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C289,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C289,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C290,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C290,Landlord Tenant,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C291,Landlord Tenant,1,Agent,"For your information, Providing maintenance and repairs.",Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C291,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C292,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C292,Landlord Tenant,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C293,Landlord Tenant,1,Agent,I need to inform you that Retaliatory eviction threat.,Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C293,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C294,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C294,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C295,Landlord Tenant,1,Agent,Please note that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C295,Landlord Tenant,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C296,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C296,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C297,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C297,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C298,Landlord Tenant,1,Agent,I want to explain that Proper notice before eviction.,Neutral,Statement,Housing Law,Proper notice before eviction,No,Low
+C298,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C299,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C299,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C300,Landlord Tenant,1,Agent,I want to explain that Retaliatory eviction threat.,Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C300,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C301,Landlord Tenant,1,Agent,I want to explain that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C301,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C302,Landlord Tenant,1,Agent,Please note that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C302,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C303,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Neutral,Statement,Housing Law,Proper notice before eviction,No,Low
+C303,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C304,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C304,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C305,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C305,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C306,Landlord Tenant,1,Agent,I need to inform you that Providing maintenance and repairs.,Threatening,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C306,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C307,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C307,Landlord Tenant,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C308,Landlord Tenant,1,Agent,Please note that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C308,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C309,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C309,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C310,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C310,Landlord Tenant,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C311,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Neutral,Statement,Housing Law,Proper notice before eviction,No,Low
+C311,Landlord Tenant,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C312,Landlord Tenant,1,Agent,Please note that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C312,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C313,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C313,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C314,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C314,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C315,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C315,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C316,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C316,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C317,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Threatening,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C317,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C318,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C318,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C319,Landlord Tenant,1,Agent,I need to inform you that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C319,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C320,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C320,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C321,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C321,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C322,Landlord Tenant,1,Agent,I want to explain that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C322,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C323,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C323,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C324,Landlord Tenant,1,Agent,Our records indicate that Failure to maintain habitable conditions.,Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C324,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C325,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C325,Landlord Tenant,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C326,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Neutral,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C326,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C327,Landlord Tenant,1,Agent,Please note that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C327,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C328,Landlord Tenant,1,Agent,I need to inform you that Retaliatory eviction threat.,Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C328,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C329,Landlord Tenant,1,Agent,"For your information, Failure to maintain habitable conditions.",Threatening,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C329,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C330,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C330,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C331,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C331,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C332,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C332,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C333,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Threatening,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C333,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C334,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C334,Landlord Tenant,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C335,Landlord Tenant,1,Agent,"For your information, Providing maintenance and repairs.",Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C335,Landlord Tenant,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C336,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C336,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C337,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C337,Landlord Tenant,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C338,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C338,Landlord Tenant,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C339,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C339,Landlord Tenant,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C340,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C340,Landlord Tenant,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C341,Landlord Tenant,1,Agent,I need to inform you that Retaliatory eviction threat.,Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C341,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C342,Landlord Tenant,1,Agent,I need to inform you that Retaliatory eviction threat.,Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C342,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C343,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Neutral,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C343,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C344,Landlord Tenant,1,Agent,Our records indicate that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C344,Landlord Tenant,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C345,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C345,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C346,Landlord Tenant,1,Agent,Our records indicate that Proper notice before eviction.,Threatening,Statement,Housing Law,Proper notice before eviction,No,Low
+C346,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C347,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C347,Landlord Tenant,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C348,Landlord Tenant,1,Agent,"For your information, Proper notice before eviction.",Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C348,Landlord Tenant,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C349,Landlord Tenant,1,Agent,I want to explain that Providing maintenance and repairs.,Helpful,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C349,Landlord Tenant,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C350,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Serious,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C350,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C351,Landlord Tenant,1,Agent,Please note that Providing maintenance and repairs.,Neutral,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C351,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C352,Landlord Tenant,1,Agent,Please note that Retaliatory eviction threat.,Helpful,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C352,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C353,Landlord Tenant,1,Agent,"For your information, Providing maintenance and repairs.",Serious,Statement,Housing Law,Providing maintenance and repairs,No,Low
+C353,Landlord Tenant,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C354,Landlord Tenant,1,Agent,"For your information, Retaliatory eviction threat.",Serious,Statement,Housing Law,Retaliatory eviction threat,Yes,High
+C354,Landlord Tenant,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C355,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Serious,Statement,Housing Law,Proper notice before eviction,No,Low
+C355,Landlord Tenant,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C356,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Neutral,Statement,Housing Law,Proper notice before eviction,No,Low
+C356,Landlord Tenant,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C357,Landlord Tenant,1,Agent,I need to inform you that Proper notice before eviction.,Helpful,Statement,Housing Law,Proper notice before eviction,No,Low
+C357,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C358,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Helpful,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C358,Landlord Tenant,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C359,Landlord Tenant,1,Agent,I want to explain that Failure to maintain habitable conditions.,Serious,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C359,Landlord Tenant,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C360,Landlord Tenant,1,Agent,I need to inform you that Failure to maintain habitable conditions.,Serious,Statement,Housing Law,Failure to maintain habitable conditions,Yes,High
+C360,Landlord Tenant,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C361,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C361,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C362,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C362,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C363,Auto Sales,1,Agent,Our records indicate that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C363,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C364,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C364,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C365,Auto Sales,1,Agent,"For your information, Hidden fees added after signing.",Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C365,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C366,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C366,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C367,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C367,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C368,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C368,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C369,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C369,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C370,Auto Sales,1,Agent,Our records indicate that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C370,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C371,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C371,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C372,Auto Sales,1,Agent,Our records indicate that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C372,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C373,Auto Sales,1,Agent,"For your information, Hidden fees added after signing.",Serious,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C373,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C374,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C374,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C375,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C375,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C376,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C376,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C377,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Serious,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C377,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C378,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C378,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C379,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C379,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C380,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C380,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C381,Auto Sales,1,Agent,I need to inform you that Providing clear price disclosure.,Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C381,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C382,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C382,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C383,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C383,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C384,Auto Sales,1,Agent,"For your information, Hidden fees added after signing.",Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C384,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C385,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C385,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C386,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C386,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C387,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C387,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C388,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C388,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C389,Auto Sales,1,Agent,I need to inform you that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C389,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C390,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C390,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C391,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C391,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C392,Auto Sales,1,Agent,Our records indicate that Honoring vehicle warranty.,Serious,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C392,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C393,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C393,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C394,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C394,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C395,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C395,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C396,Auto Sales,1,Agent,Please note that Providing clear price disclosure.,Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C396,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C397,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C397,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C398,Auto Sales,1,Agent,I want to explain that Hidden fees added after signing.,Serious,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C398,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C399,Auto Sales,1,Agent,Our records indicate that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C399,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C400,Auto Sales,1,Agent,Our records indicate that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C400,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C401,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C401,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C402,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C402,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C403,Auto Sales,1,Agent,I want to explain that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C403,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C404,Auto Sales,1,Agent,I want to explain that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C404,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C405,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C405,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C406,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C406,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C407,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C407,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C408,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C408,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C409,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C409,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C410,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C410,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C411,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C411,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C412,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C412,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C413,Auto Sales,1,Agent,Please note that Honoring vehicle warranty.,Neutral,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C413,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C414,Auto Sales,1,Agent,Our records indicate that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C414,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C415,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Serious,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C415,Auto Sales,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C416,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C416,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C417,Auto Sales,1,Agent,Our records indicate that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C417,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C418,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C418,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C419,Auto Sales,1,Agent,Please note that Honoring vehicle warranty.,Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C419,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C420,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C420,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C421,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C421,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C422,Auto Sales,1,Agent,Please note that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C422,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C423,Auto Sales,1,Agent,I need to inform you that Providing clear price disclosure.,Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C423,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C424,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C424,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C425,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C425,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C426,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Neutral,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C426,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C427,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C427,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C428,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C428,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C429,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C429,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C430,Auto Sales,1,Agent,"For your information, Hidden fees added after signing.",Serious,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C430,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C431,Auto Sales,1,Agent,Please note that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C431,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C432,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C432,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C433,Auto Sales,1,Agent,Our records indicate that Honoring vehicle warranty.,Neutral,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C433,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C434,Auto Sales,1,Agent,I need to inform you that Honoring vehicle warranty.,Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C434,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C435,Auto Sales,1,Agent,Our records indicate that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C435,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C436,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Serious,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C436,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C437,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C437,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C438,Auto Sales,1,Agent,I want to explain that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C438,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C439,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Serious,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C439,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C440,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C440,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C441,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C441,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C442,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C442,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C443,Auto Sales,1,Agent,Our records indicate that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C443,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C444,Auto Sales,1,Agent,I need to inform you that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C444,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C445,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C445,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C446,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C446,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C447,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C447,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C448,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C448,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C449,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C449,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C450,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C450,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C451,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C451,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C452,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C452,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C453,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C453,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C454,Auto Sales,1,Agent,"For your information, Honoring vehicle warranty.",Helpful,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C454,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C455,Auto Sales,1,Agent,Please note that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C455,Auto Sales,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C456,Auto Sales,1,Agent,Please note that Hidden fees added after signing.,Helpful,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C456,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C457,Auto Sales,1,Agent,I want to explain that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C457,Auto Sales,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C458,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Serious,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C458,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C459,Auto Sales,1,Agent,Please note that Honoring vehicle warranty.,Threatening,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C459,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C460,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C460,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C461,Auto Sales,1,Agent,I need to inform you that Honoring vehicle warranty.,Neutral,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C461,Auto Sales,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C462,Auto Sales,1,Agent,Our records indicate that Hidden fees added after signing.,Threatening,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C462,Auto Sales,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C463,Auto Sales,1,Agent,Our records indicate that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C463,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C464,Auto Sales,1,Agent,Our records indicate that Hidden fees added after signing.,Neutral,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C464,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C465,Auto Sales,1,Agent,I need to inform you that Honoring vehicle warranty.,Serious,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C465,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C466,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Neutral,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C466,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C467,Auto Sales,1,Agent,I want to explain that Refusal to honor warranty.,Threatening,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C467,Auto Sales,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C468,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C468,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C469,Auto Sales,1,Agent,I want to explain that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C469,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C470,Auto Sales,1,Agent,I need to inform you that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C470,Auto Sales,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C471,Auto Sales,1,Agent,Please note that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C471,Auto Sales,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C472,Auto Sales,1,Agent,Please note that Providing clear price disclosure.,Helpful,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C472,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C473,Auto Sales,1,Agent,Please note that Providing clear price disclosure.,Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C473,Auto Sales,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C474,Auto Sales,1,Agent,"For your information, Providing clear price disclosure.",Threatening,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C474,Auto Sales,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C475,Auto Sales,1,Agent,Our records indicate that Refusal to honor warranty.,Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C475,Auto Sales,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C476,Auto Sales,1,Agent,Please note that Refusal to honor warranty.,Helpful,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C476,Auto Sales,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C477,Auto Sales,1,Agent,Our records indicate that Providing clear price disclosure.,Serious,Statement,Consumer Protection,Providing clear price disclosure,No,Low
+C477,Auto Sales,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C478,Auto Sales,1,Agent,I want to explain that Honoring vehicle warranty.,Neutral,Statement,Consumer Protection,Honoring vehicle warranty,No,Low
+C478,Auto Sales,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C479,Auto Sales,1,Agent,"For your information, Refusal to honor warranty.",Neutral,Statement,Consumer Protection,Refusal to honor warranty,Yes,High
+C479,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C480,Auto Sales,1,Agent,I need to inform you that Hidden fees added after signing.,Serious,Statement,Consumer Protection,Hidden fees added after signing,Yes,High
+C480,Auto Sales,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C481,Banking,1,Agent,I need to inform you that Providing privacy notice.,Helpful,Statement,Bank Compliance,Providing privacy notice,No,Low
+C481,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C482,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C482,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C483,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C483,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C484,Banking,1,Agent,I want to explain that Providing privacy notice.,Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C484,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C485,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C485,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C486,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C486,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C487,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C487,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C488,Banking,1,Agent,Please note that Misleading interest rate disclosure.,Neutral,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C488,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C489,Banking,1,Agent,Our records indicate that Explaining loan terms clearly.,Threatening,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C489,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C490,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C490,Banking,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C491,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C491,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C492,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Neutral,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C492,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C493,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Neutral,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C493,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C494,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C494,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C495,Banking,1,Agent,I need to inform you that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C495,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C496,Banking,1,Agent,Our records indicate that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C496,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C497,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C497,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C498,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Helpful,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C498,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C499,Banking,1,Agent,Our records indicate that Providing privacy notice.,Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C499,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C500,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Threatening,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C500,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C501,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Threatening,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C501,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C502,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C502,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C503,Banking,1,Agent,Our records indicate that Explaining loan terms clearly.,Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C503,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C504,Banking,1,Agent,Our records indicate that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C504,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C505,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Helpful,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C505,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C506,Banking,1,Agent,Please note that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C506,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C507,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C507,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C508,Banking,1,Agent,Our records indicate that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C508,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C509,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C509,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C510,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C510,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C511,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C511,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C512,Banking,1,Agent,I want to explain that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C512,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C513,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Helpful,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C513,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C514,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C514,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C515,Banking,1,Agent,I want to explain that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C515,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C516,Banking,1,Agent,I want to explain that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C516,Banking,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C517,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C517,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C518,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C518,Banking,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C519,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C519,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C520,Banking,1,Agent,I want to explain that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C520,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C521,Banking,1,Agent,Please note that Providing privacy notice.,Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C521,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C522,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C522,Banking,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C523,Banking,1,Agent,I want to explain that Providing privacy notice.,Helpful,Statement,Bank Compliance,Providing privacy notice,No,Low
+C523,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C524,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C524,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C525,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C525,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C526,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Threatening,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C526,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C527,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C527,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C528,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Neutral,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C528,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C529,Banking,1,Agent,I want to explain that Providing privacy notice.,Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C529,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C530,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Neutral,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C530,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C531,Banking,1,Agent,"For your information, Providing privacy notice.",Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C531,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C532,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C532,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C533,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C533,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C534,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C534,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C535,Banking,1,Agent,I want to explain that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C535,Banking,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C536,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C536,Banking,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C537,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C537,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C538,Banking,1,Agent,Our records indicate that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C538,Banking,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C539,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C539,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C540,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C540,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C541,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C541,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C542,Banking,1,Agent,I need to inform you that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C542,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C543,Banking,1,Agent,"For your information, Providing privacy notice.",Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C543,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C544,Banking,1,Agent,Our records indicate that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C544,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C545,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C545,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C546,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C546,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C547,Banking,1,Agent,I need to inform you that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C547,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C548,Banking,1,Agent,I want to explain that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C548,Banking,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C549,Banking,1,Agent,"For your information, Providing privacy notice.",Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C549,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C550,Banking,1,Agent,I need to inform you that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C550,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C551,Banking,1,Agent,Please note that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C551,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C552,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C552,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C553,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Serious,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C553,Banking,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C554,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C554,Banking,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C555,Banking,1,Agent,Please note that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C555,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C556,Banking,1,Agent,I need to inform you that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C556,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C557,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Helpful,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C557,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C558,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C558,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C559,Banking,1,Agent,I need to inform you that Providing privacy notice.,Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C559,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C560,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C560,Banking,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C561,Banking,1,Agent,Please note that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C561,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C562,Banking,1,Agent,Our records indicate that Explaining loan terms clearly.,Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C562,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C563,Banking,1,Agent,I want to explain that Unauthorized sharing of financial data.,Helpful,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C563,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C564,Banking,1,Agent,I need to inform you that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C564,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C565,Banking,1,Agent,Please note that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C565,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C566,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C566,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C567,Banking,1,Agent,I need to inform you that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C567,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C568,Banking,1,Agent,I need to inform you that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C568,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C569,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Threatening,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C569,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C570,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Threatening,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C570,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C571,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C571,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C572,Banking,1,Agent,Please note that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C572,Banking,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C573,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C573,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C574,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C574,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C575,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C575,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C576,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C576,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C577,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C577,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C578,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C578,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C579,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Helpful,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C579,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C580,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C580,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C581,Banking,1,Agent,"For your information, Explaining loan terms clearly.",Serious,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C581,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C582,Banking,1,Agent,Please note that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C582,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C583,Banking,1,Agent,Please note that Providing privacy notice.,Neutral,Statement,Bank Compliance,Providing privacy notice,No,Low
+C583,Banking,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C584,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C584,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C585,Banking,1,Agent,Our records indicate that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C585,Banking,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C586,Banking,1,Agent,I need to inform you that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C586,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C587,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Threatening,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C587,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C588,Banking,1,Agent,"For your information, Providing privacy notice.",Threatening,Statement,Bank Compliance,Providing privacy notice,No,Low
+C588,Banking,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C589,Banking,1,Agent,"For your information, Misleading interest rate disclosure.",Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C589,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C590,Banking,1,Agent,I want to explain that Misleading interest rate disclosure.,Helpful,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C590,Banking,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C591,Banking,1,Agent,Please note that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C591,Banking,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C592,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Threatening,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C592,Banking,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C593,Banking,1,Agent,I need to inform you that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C593,Banking,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C594,Banking,1,Agent,I need to inform you that Providing privacy notice.,Helpful,Statement,Bank Compliance,Providing privacy notice,No,Low
+C594,Banking,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C595,Banking,1,Agent,Our records indicate that Providing privacy notice.,Serious,Statement,Bank Compliance,Providing privacy notice,No,Low
+C595,Banking,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C596,Banking,1,Agent,Our records indicate that Misleading interest rate disclosure.,Threatening,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C596,Banking,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C597,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Neutral,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C597,Banking,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C598,Banking,1,Agent,I want to explain that Explaining loan terms clearly.,Threatening,Statement,Bank Compliance,Explaining loan terms clearly,No,Low
+C598,Banking,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C599,Banking,1,Agent,Please note that Unauthorized sharing of financial data.,Neutral,Statement,Bank Compliance,Unauthorized sharing of financial data,Yes,High
+C599,Banking,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C600,Banking,1,Agent,I need to inform you that Misleading interest rate disclosure.,Serious,Statement,Bank Compliance,Misleading interest rate disclosure,Yes,High
+C600,Banking,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C601,AML_KYC,1,Agent,Our records indicate that Reporting suspicious transaction.,Neutral,Statement,AML,Reporting suspicious transaction,No,Low
+C601,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C602,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C602,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C603,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C603,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C604,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C604,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C605,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C605,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C606,AML_KYC,1,Agent,I need to inform you that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C606,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C607,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C607,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C608,AML_KYC,1,Agent,Our records indicate that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C608,AML_KYC,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C609,AML_KYC,1,Agent,Our records indicate that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C609,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C610,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C610,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C611,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C611,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C612,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C612,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C613,AML_KYC,1,Agent,Our records indicate that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C613,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C614,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C614,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C615,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C615,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C616,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C616,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C617,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C617,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C618,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C618,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C619,AML_KYC,1,Agent,I need to inform you that Reporting suspicious transaction.,Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C619,AML_KYC,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C620,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C620,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C621,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C621,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C622,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C622,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C623,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Neutral,Statement,AML,Reporting suspicious transaction,No,Low
+C623,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C624,AML_KYC,1,Agent,I need to inform you that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C624,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C625,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C625,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C626,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C626,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C627,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C627,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C628,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C628,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C629,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C629,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C630,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C630,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C631,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Serious,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C631,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C632,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C632,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C633,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C633,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C634,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C634,AML_KYC,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C635,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C635,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C636,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C636,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C637,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C637,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C638,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C638,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C639,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C639,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C640,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C640,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C641,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Serious,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C641,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C642,AML_KYC,1,Agent,Our records indicate that Advising structuring deposits to avoid reporting.,Threatening,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C642,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C643,AML_KYC,1,Agent,"For your information, Advising structuring deposits to avoid reporting.",Threatening,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C643,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C644,AML_KYC,1,Agent,I need to inform you that Reporting suspicious transaction.,Neutral,Statement,AML,Reporting suspicious transaction,No,Low
+C644,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C645,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C645,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C646,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C646,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C647,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C647,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C648,AML_KYC,1,Agent,Please note that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C648,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C649,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C649,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C650,AML_KYC,1,Agent,"For your information, Advising structuring deposits to avoid reporting.",Threatening,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C650,AML_KYC,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C651,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C651,AML_KYC,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C652,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C652,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C653,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C653,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C654,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C654,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C655,AML_KYC,1,Agent,I want to explain that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C655,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C656,AML_KYC,1,Agent,I need to inform you that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C656,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C657,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Neutral,Statement,KYC,Approving account without identity verification,Yes,High
+C657,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C658,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C658,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C659,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Neutral,Statement,AML,Reporting suspicious transaction,No,Low
+C659,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C660,AML_KYC,1,Agent,Please note that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C660,AML_KYC,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C661,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C661,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C662,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C662,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C663,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C663,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C664,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C664,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C665,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C665,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C666,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C666,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C667,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C667,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C668,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C668,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C669,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C669,AML_KYC,2,Customer,Can you explain more?,Concerned,Response,None,None,No,Low
+C670,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C670,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C671,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C671,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C672,AML_KYC,1,Agent,I want to explain that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C672,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C673,AML_KYC,1,Agent,"For your information, Advising structuring deposits to avoid reporting.",Serious,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C673,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C674,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C674,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C675,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C675,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C676,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C676,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C677,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C677,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C678,AML_KYC,1,Agent,Our records indicate that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C678,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C679,AML_KYC,1,Agent,I want to explain that Approving account without identity verification.,Neutral,Statement,KYC,Approving account without identity verification,Yes,High
+C679,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C680,AML_KYC,1,Agent,Our records indicate that Advising structuring deposits to avoid reporting.,Threatening,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C680,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C681,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C681,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C682,AML_KYC,1,Agent,Please note that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C682,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C683,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C683,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C684,AML_KYC,1,Agent,I need to inform you that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C684,AML_KYC,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C685,AML_KYC,1,Agent,Our records indicate that Approving account without identity verification.,Neutral,Statement,KYC,Approving account without identity verification,Yes,High
+C685,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C686,AML_KYC,1,Agent,Please note that Verifying identity before opening account.,Neutral,Statement,KYC,Verifying identity before opening account,No,Low
+C686,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C687,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C687,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C688,AML_KYC,1,Agent,I need to inform you that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C688,AML_KYC,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C689,AML_KYC,1,Agent,I want to explain that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C689,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C690,AML_KYC,1,Agent,"For your information, Advising structuring deposits to avoid reporting.",Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C690,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C691,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C691,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C692,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C692,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C693,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C693,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C694,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C694,AML_KYC,2,Customer,I wasn't aware of that.,Confused,Response,None,None,No,Low
+C695,AML_KYC,1,Agent,Our records indicate that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C695,AML_KYC,2,Customer,Thank you for clarifying.,Confused,Response,None,None,No,Low
+C696,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C696,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C697,AML_KYC,1,Agent,I want to explain that Approving account without identity verification.,Neutral,Statement,KYC,Approving account without identity verification,Yes,High
+C697,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C698,AML_KYC,1,Agent,I want to explain that Approving account without identity verification.,Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C698,AML_KYC,2,Customer,I wasn't aware of that.,Concerned,Response,None,None,No,Low
+C699,AML_KYC,1,Agent,"For your information, Verifying identity before opening account.",Serious,Statement,KYC,Verifying identity before opening account,No,Low
+C699,AML_KYC,2,Customer,Thank you for clarifying.,Concerned,Response,None,None,No,Low
+C700,AML_KYC,1,Agent,I need to inform you that Advising structuring deposits to avoid reporting.,Serious,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C700,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C701,AML_KYC,1,Agent,"For your information, Advising structuring deposits to avoid reporting.",Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C701,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
+C702,AML_KYC,1,Agent,I want to explain that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C702,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C703,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C703,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C704,AML_KYC,1,Agent,Our records indicate that Reporting suspicious transaction.,Serious,Statement,AML,Reporting suspicious transaction,No,Low
+C704,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C705,AML_KYC,1,Agent,I want to explain that Reporting suspicious transaction.,Neutral,Statement,AML,Reporting suspicious transaction,No,Low
+C705,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C706,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Helpful,Statement,KYC,Verifying identity before opening account,No,Low
+C706,AML_KYC,2,Customer,That doesn't seem right.,Concerned,Response,None,None,No,Low
+C707,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Threatening,Statement,KYC,Approving account without identity verification,Yes,High
+C707,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C708,AML_KYC,1,Agent,Our records indicate that Verifying identity before opening account.,Neutral,Statement,KYC,Verifying identity before opening account,No,Low
+C708,AML_KYC,2,Customer,That doesn't seem right.,Neutral,Response,None,None,No,Low
+C709,AML_KYC,1,Agent,I need to inform you that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C709,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C710,AML_KYC,1,Agent,Please note that Advising structuring deposits to avoid reporting.,Neutral,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C710,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C711,AML_KYC,1,Agent,I want to explain that Verifying identity before opening account.,Threatening,Statement,KYC,Verifying identity before opening account,No,Low
+C711,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C712,AML_KYC,1,Agent,Our records indicate that Advising structuring deposits to avoid reporting.,Helpful,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C712,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C713,AML_KYC,1,Agent,I need to inform you that Approving account without identity verification.,Neutral,Statement,KYC,Approving account without identity verification,Yes,High
+C713,AML_KYC,2,Customer,Can you explain more?,Confused,Response,None,None,No,Low
+C714,AML_KYC,1,Agent,I need to inform you that Advising structuring deposits to avoid reporting.,Serious,Statement,AML,Advising structuring deposits to avoid reporting,Yes,High
+C714,AML_KYC,2,Customer,That doesn't seem right.,Confused,Response,None,None,No,Low
+C715,AML_KYC,1,Agent,Please note that Reporting suspicious transaction.,Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C715,AML_KYC,2,Customer,I would like documentation for that.,Neutral,Response,None,None,No,Low
+C716,AML_KYC,1,Agent,"For your information, Reporting suspicious transaction.",Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C716,AML_KYC,2,Customer,I wasn't aware of that.,Neutral,Response,None,None,No,Low
+C717,AML_KYC,1,Agent,Please note that Approving account without identity verification.,Helpful,Statement,KYC,Approving account without identity verification,Yes,High
+C717,AML_KYC,2,Customer,Thank you for clarifying.,Neutral,Response,None,None,No,Low
+C718,AML_KYC,1,Agent,I want to explain that Reporting suspicious transaction.,Threatening,Statement,AML,Reporting suspicious transaction,No,Low
+C718,AML_KYC,2,Customer,Can you explain more?,Neutral,Response,None,None,No,Low
+C719,AML_KYC,1,Agent,"For your information, Approving account without identity verification.",Serious,Statement,KYC,Approving account without identity verification,Yes,High
+C719,AML_KYC,2,Customer,I would like documentation for that.,Concerned,Response,None,None,No,Low
+C720,AML_KYC,1,Agent,I want to explain that Reporting suspicious transaction.,Helpful,Statement,AML,Reporting suspicious transaction,No,Low
+C720,AML_KYC,2,Customer,I would like documentation for that.,Confused,Response,None,None,No,Low
